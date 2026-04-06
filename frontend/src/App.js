@@ -55,11 +55,7 @@ function App() {
     setError(null);
 
     try {
-      const response = await axios.post('http://13.48.13.229:8000/predict', formData, {
-        headers: {
-          'Content-Type': 'multipart/form-data',
-        },
-      });
+      const response = await axios.post('http://13.48.13.229:8000/predict',formData);
       setPrediction(response.data);
     } catch (err) {
       setError('Failed to classify image. Please try again.');
