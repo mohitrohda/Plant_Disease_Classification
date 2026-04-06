@@ -16,7 +16,7 @@ app.add_middleware(
 )
 
 
-MODEL = tf.keras.models.load_model("../saved_models/1.keras")
+MODEL = tf.keras.models.load_model("saved_models/1.keras")
 
 CLASS_NAMES = ['Apple___Apple_scab',
  'Apple___Black_rot',
