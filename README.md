@@ -35,6 +35,7 @@ A full-stack deep learning project that detects plant diseases from leaf images 
 
 ## 🏗️ Project Structure
 
+```
 plant-disease-detection/
 │
 ├── training/
@@ -56,6 +57,7 @@ plant-disease-detection/
 │
 └── requirements.txt
 
+```
 ---
 
 ## ⚙️ Setup Instructions
